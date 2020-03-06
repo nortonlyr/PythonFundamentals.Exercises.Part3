@@ -5,7 +5,7 @@ def guess():
     Enter guess number
     """
     
-    yourNum = int(input('Give me a number: '))
+    yourNum = int(input('Give me a number between 0 and 10: '))
     print('Your guess was: ' + str(yourNum))
     return yourNum
 
