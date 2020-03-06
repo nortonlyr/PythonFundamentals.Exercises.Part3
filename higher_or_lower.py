@@ -4,7 +4,7 @@ def guess():
     """
     Enter guess number
     """
-    global yourNum
+    
     yourNum = int(input('Give me a number: '))
     print('Your guess was: ' + str(yourNum))
     return yourNum
@@ -16,7 +16,7 @@ def generateRandomNum():
     """
     Generate a random number
     """
-    global randomNum
+    
     randomNum = randrange(0,10)
     print('The random number was ' + str(randomNum))
     return randomNum
