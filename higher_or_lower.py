@@ -9,7 +9,7 @@ def guess():
     print('Your guess was: ' + str(yourNum))
     return yourNum
 
-YourNum = guess()
+yourNum = guess()
 
 
 def generateRandomNum():
